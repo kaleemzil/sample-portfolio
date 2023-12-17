@@ -1,0 +1,93 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+#container{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    padding-top: 20px;
+    background-color: #000;
+    height: 60px;
+}
+#container .heading{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 22px;
+}
+#container .heading h4{
+    color: gray;
+} 
+#container .heading h4 span{
+    color:rgb(182, 178, 178);
+}
+#container .list ul{
+    display: flex;
+    list-style-type: none;
+    flex-wrap: wrap;
+}
+#container .list ul li a{
+    text-decoration: none;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    padding: 10px 20px;
+    font-weight: 600;
+    color: gray;
+    cursor: pointer;
+}
+#container .list ul li a:hover{
+    color: white;
+}
+#container .list ul li button{
+    border: none;
+    padding: 5px 20px;
+    font-size: 16px;
+    position: relative;
+    top: -5px;
+    background-image: linear-gradient(180deg,gray,white);
+    border-radius: 5px;
+    
+    
+}
+#container .list ul li button a{
+    color: #000;
+ }
+#container .list ul li button a:hover{
+    color: white;
+}
+#main{
+    padding: 10px 20px;
+    display: flex;
+    justify-content: space-around;
+    position: relative;
+    flex-wrap: wrap;
+    background-image: linear-gradient( to bottom left,white,black);
+    width: 100%;
+    height: 600px;
+    
+}
+#main .desc {
+    color: rgb(15, 9, 9);
+    position: relative;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    top: 150px;  
+    left: 70px;
+    word-spacing: 10px;
+}
+#main .desc p{
+    color: rgb(37, 25, 25);
+}
+
+#main .image img{
+    border-radius: 50%;
+    border:10px solid #000;
+    overflow: hidden;
+    position: relative;
+    top: 50px;
+}
+#main .image img{
+    width: 450px;
+    border-radius: 50%;
+
+}
+
+
